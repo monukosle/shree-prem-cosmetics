@@ -566,32 +566,42 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
     });
-function updateStoreStatus(){
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
-    const now = new Date();
-
-    const hour = now.getHours();
-    const minute = now.getMinutes();
-
-    const current = hour * 60 + minute;
-
-    const open = 11 * 60;          // 11:00 AM
-    const close = 21 * 60 + 45;    // 9:45 PM
-
-    const status = document.getElementById("storeStatus");
-    const text = document.getElementById("statusText");
-
-    if(current >= open && current <= close){
-        status.classList.remove("closed");
-        text.innerHTML = "🟢 STORE OPEN";
-    }else{
-        status.classList.add("closed");
-        text.innerHTML = "🔴 STORE CLOSED";
+    function updateStoreStatus() {
+        // pura function
     }
-}
 
-updateStoreStatus();
-setInterval(updateStoreStatus,60000);
+    updateStoreStatus();
+    setInterval(updateStoreStatus, 60000);
+
+});
+</script>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/location.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".hero-slide");
+    let currentSlide = 0;
+
+    if (slides.length > 1) {
+        setInterval(function () {
+            slides[currentSlide].classList.remove("active");
+
+            currentSlide++;
+
+            if (currentSlide >= slides.length) {
+                currentSlide = 0;
+            }
+
+            slides[currentSlide].classList.add("active");
+        }, 4000);
+    }
+});
+</script>
 
 </script>
 </body>

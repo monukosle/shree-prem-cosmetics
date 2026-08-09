@@ -1047,42 +1047,42 @@ OUR BRANCHES
     </script>
     
     <script>            
-   document.addEventListener("DOMContentLoaded", function () {
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
 
     function updateStoreStatus() {
-
         const now = new Date();
 
-        const currentMinutes = now.getHours() * 60 + now.getMinutes();
+        const currentMinutes =
+            now.getHours() * 60 + now.getMinutes();
 
-        const openTime = 11 * 60;
-        const closeTime = 21 * 60 + 45;
+        const openTime = 11 * 60;          // 11:00 AM
+        const closeTime = 21 * 60 + 45;    // 9:45 PM
 
         const storeStatus = document.getElementById("storeStatus");
+        const statusText = document.getElementById("statusText");
 
-        if (!storeStatus) return;
+        if (!storeStatus || !statusText) return;
 
-        if (currentMinutes >= openTime && currentMinutes < closeTime) {
-
-    storeStatus.className = "store-status open";
-    document.getElementById("statusText").textContent = "STORE OPEN";
-
-} else {
-
-    storeStatus.className = "store-status closed";
-    document.getElementById("statusText").textContent = "STORE CLOSED";
-
-}
-
+        if (
+            currentMinutes >= openTime &&
+            currentMinutes < closeTime
+        ) {
+            storeStatus.className = "store-status open";
+            statusText.textContent = "STORE OPEN";
+        } else {
+            storeStatus.className = "store-status closed";
+            statusText.textContent = "STORE CLOSED";
         }
-
     }
-        updateStoreStatus();
+
+    updateStoreStatus();
 
     setInterval(updateStoreStatus, 60000);
 
-);
-    </script>
+});
+</script>
+   
     <script src="assets/js/main.js"></script>
     <script src="assets/js/location.js"></script>
 <script>

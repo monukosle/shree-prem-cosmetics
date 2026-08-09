@@ -2606,4 +2606,212 @@ footer{
         min-width: 19px !important;
         height: 6px !important;
     }
+}/* MOBILE RESPONSIVE FIX */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .hero-full-slider {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        overflow: hidden !important;
+    }
+
+    .hero-full-slide {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .hero-full-slide img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+        object-fit: contain !important;
+    }
+}/* ==============================
+   MOBILE FULL LAYOUT FIX
+================================ */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Bootstrap container mobile fix */
+.container,
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Prevent any section from creating horizontal overflow */
+section,
+div,
+nav,
+header,
+main,
+footer {
+    max-width: 100%;
+}
+
+/* ==============================
+   HERO SLIDER FIX
+================================ */
+
+.hero {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero-slider,
+.carousel,
+.carousel-inner,
+.hero-wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero-full-slide {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero-full-slide img,
+.hero-slider img,
+.carousel-item img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ==============================
+   MOBILE FIX
+================================ */
+
+@media (max-width: 768px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* HERO */
+    .hero,
+    .hero-slider,
+    .carousel,
+    .carousel-inner,
+    .carousel-item {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow: hidden !important;
+    }
+
+    .hero-full-slide {
+        width: 100% !important;
+        height: auto !important;
+        overflow: hidden !important;
+    }
+
+    .hero-full-slide img,
+    .carousel-item img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        object-fit: cover !important;
+    }
+
+    /* Remove fixed widths */
+    img {
+        max-width: 100%;
+    }
+}/* =========================================
+   FINAL HERO POSTER FIX
+   Poster Ratio: 3:2
+   Desktop + Mobile
+   ========================================= */
+
+.hero-full-slider {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: 3 / 2 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+.hero-full-slide {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: fill !important;
+    object-position: center !important;
+    display: block !important;
+}
+
+.hero-full-slide.active {
+    opacity: 1 !important;
+    visibility: visible !important;
+    z-index: 2 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .hero-full-slider {
+        width: 100% !important;
+        max-width: 100% !important;
+        aspect-ratio: 3 / 2 !important;
+        height: auto !important;
+        overflow: hidden !important;
+    }
+
+    .hero-full-slide {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: fill !important;
+    }
+}
+
+/* Very small mobile */
+@media (max-width: 400px) {
+
+    .hero-full-slider {
+        width: 100% !important;
+        aspect-ratio: 3 / 2 !important;
+    }
+
+    .hero-full-slide {
+        width: 100% !important;
+        height: 100% !important;
+    }
 }  
