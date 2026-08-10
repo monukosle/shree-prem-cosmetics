@@ -2814,4 +2814,2695 @@ footer {
         width: 100% !important;
         height: 100% !important;
     }
+}/* =========================================
+   FINAL HERO BANNER - OVERRIDE ALL OLD CSS
+   ========================================= */
+
+.hero,
+.hero-slider,
+.carousel,
+.carousel-inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* Hero container */
+.hero-full-slide {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #fff !important;
+}
+
+/* Hide only non-active slides */
+.hero-full-slide:not(.active) {
+    display: none !important;
+}
+
+/* Show active slide */
+.hero-full-slide.active {
+    display: block !important;
+}
+
+/* Poster image */
+.hero-full-slide img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+    .hero-full-slide {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .hero-full-slide img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}
+
+/* Prevent horizontal scroll */
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}/* =========================================
+   FINAL HERO BANNER - OVERRIDE ALL OLD CSS
+   ========================================= */
+
+.hero,
+.hero-slider,
+.carousel,
+.carousel-inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* Hero container */
+.hero-full-slide {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: #fff !important;
+}
+
+/* Hide only non-active slides */
+.hero-full-slide:not(.active) {
+    display: none !important;
+}
+
+/* Show active slide */
+.hero-full-slide.active {
+    display: block !important;
+}
+
+/* Poster image */
+.hero-full-slide img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+    object-position: center center !important;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+    .hero-full-slide {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .hero-full-slide img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}
+
+/* Prevent horizontal scroll */
+html,
+body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}/* ===== EXACT POSTER BANNER FIX - LAST OVERRIDE ===== */
+
+.hero-full-slide {
+    position: relative !important;
+    display: none !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    overflow: hidden !important;
+}
+
+.hero-full-slide.active {
+    display: block !important;
+}
+
+/* Poster image */
+.hero-full-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    max-height: none !important;
+    margin: 0 !important;
+    object-fit: unset !important;
+    object-position: unset !important;
+    transform: none !important;
+}
+
+/* Desktop banner size */
+@media (min-width: 769px) {
+    .hero-full-slide {
+        height: auto !important;
+    }
+
+    .hero-full-slide img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+/* Mobile banner */
+@media (max-width: 768px) {
+    .hero-full-slide {
+        height: auto !important;
+    }
+
+    .hero-full-slide img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}/* ================================
+   FINAL HERO BANNER - TIRA STYLE
+   ================================ */
+
+.hero,
+.hero-slider,
+.carousel,
+.carousel-inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+.hero-full-slider,
+.hero-full-slide,
+.hero-slide {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 3 / 1 !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.hero-full-slide img,
+.hero-slide img,
+.carousel-item img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+
+/* Desktop banner */
+@media (min-width: 769px) {
+    .hero-full-slide,
+    .hero-slide {
+        height: 430px !important;
+        aspect-ratio: auto !important;
+    }
+}
+
+/* Mobile banner */
+@media (max-width: 768px) {
+    .hero-full-slide,
+    .hero-slide {
+        height: 240px !important;
+        aspect-ratio: auto !important;
+    }
+
+    .hero-full-slide img,
+    .hero-slide img,
+    .carousel-item img {
+        object-fit: cover !important;
+        object-position: center center !important;
+    }
+}/* =========================================
+   GLOBAL WEBSITE SPACING + FONT FIX
+   Paste this at the VERY END of style.css
+========================================= */
+
+/* Better overall font size */
+html {
+    font-size: 16px !important;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    overflow-x: hidden !important;
+}
+
+/* Remove excessive empty space from all sections */
+section {
+    min-height: auto !important;
+}
+
+/* Main section spacing */
+.about-section,
+.why-choose-section,
+.categories-section,
+.contact-section,
+.branches-section,
+.gallery-section {
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+    min-height: auto !important;
+}
+
+/* Remove unnecessary fixed large heights */
+.about-section,
+.why-choose-section,
+.categories-section,
+.contact-section {
+    height: auto !important;
+}
+
+/* Fix containers */
+.container,
+.section-container {
+    min-height: auto !important;
+}
+
+/* =========================================
+   HEADINGS - SMALLER AND LESS BOLD
+========================================= */
+
+h1 {
+    font-size: clamp(34px, 4vw, 58px) !important;
+    line-height: 1.12 !important;
+    font-weight: 700 !important;
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+h2 {
+    font-size: clamp(30px, 3.2vw, 48px) !important;
+    line-height: 1.15 !important;
+    font-weight: 700 !important;
+    margin-top: 0 !important;
+    margin-bottom: 14px !important;
+}
+
+h3 {
+    font-size: clamp(20px, 2vw, 28px) !important;
+    line-height: 1.25 !important;
+    font-weight: 600 !important;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 600 !important;
+}
+
+/* Main section titles */
+.section-title,
+.section-heading,
+.about-title,
+.why-title,
+.category-title,
+.contact-title {
+    font-size: clamp(32px, 3.5vw, 52px) !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    margin-bottom: 15px !important;
+}
+
+/* Small upper headings */
+.section-tag,
+.section-subtitle,
+.eyebrow {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 3px !important;
+    margin-bottom: 12px !important;
+}
+
+/* =========================================
+   TEXT FIX
+========================================= */
+
+p {
+    font-size: 16px !important;
+    line-height: 1.55 !important;
+    margin-top: 0 !important;
+}
+
+.section-description,
+.about-text,
+.contact-text {
+    margin-bottom: 20px !important;
+}
+
+/* =========================================
+   REMOVE LARGE EMPTY SPACE
+========================================= */
+
+.about-section,
+.why-choose-section,
+.categories-section,
+.contact-section {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.about-content,
+.why-grid,
+.category-grid,
+.contact-content {
+    margin-top: 25px !important;
+    margin-bottom: 0 !important;
+}
+
+/* Prevent huge gaps */
+.about-section > *,
+.why-choose-section > *,
+.categories-section > *,
+.contact-section > * {
+    min-height: 0 !important;
+}
+
+/* =========================================
+   ABOUT SECTION FIX
+========================================= */
+
+.about-section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.about-content {
+    gap: 35px !important;
+    align-items: center !important;
+}
+
+.about-image {
+    max-height: 380px !important;
+}
+
+.about-image img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 380px !important;
+    object-fit: cover !important;
+}
+
+/* =========================================
+   CARDS - REDUCE HEIGHT AND SPACING
+========================================= */
+
+.stat-card,
+.feature-card,
+.category-card {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 25px 20px !important;
+}
+
+.stat-card {
+    min-height: 150px !important;
+}
+
+.feature-card {
+    min-height: 170px !important;
+}
+
+.category-card {
+    min-height: 180px !important;
+}
+
+/* Card text */
+.stat-card h3,
+.stat-card .number {
+    font-size: clamp(34px, 3vw, 52px) !important;
+    font-weight: 700 !important;
+}
+
+.feature-card h3,
+.category-card h3 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+/* =========================================
+   WHY CHOOSE SECTION
+========================================= */
+
+.why-choose-section {
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+}
+
+.why-grid {
+    gap: 22px !important;
+}
+
+/* =========================================
+   CATEGORY SECTION
+========================================= */
+
+.categories-section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.category-grid {
+    gap: 22px !important;
+}
+
+/* =========================================
+   CONTACT SECTION
+========================================= */
+
+.contact-section {
+    padding-top: 50px !important;
+    padding-bottom: 55px !important;
+}
+
+.contact-wrapper,
+.contact-container {
+    min-height: auto !important;
+    padding: 30px !important;
+}
+
+.contact-form {
+    margin-top: 25px !important;
+}
+
+/* =========================================
+   REMOVE EXCESSIVE MARGINS
+========================================= */
+
+section + section {
+    margin-top: 0 !important;
+}
+
+.section-header {
+    margin-bottom: 30px !important;
+}
+
+.title-wrapper {
+    margin-bottom: 20px !important;
+}
+
+/* =========================================
+   MOBILE FIX
+========================================= */
+
+@media (max-width: 768px) {
+
+    html {
+        font-size: 15px !important;
+    }
+
+    section,
+    .about-section,
+    .why-choose-section,
+    .categories-section,
+    .contact-section {
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+        min-height: auto !important;
+    }
+
+    h1 {
+        font-size: 34px !important;
+    }
+
+    h2,
+    .section-title,
+    .section-heading {
+        font-size: 30px !important;
+    }
+
+    p {
+        font-size: 15px !important;
+    }
+
+    .about-content,
+    .why-grid,
+    .category-grid {
+        gap: 15px !important;
+    }
+
+    .stat-card,
+    .feature-card,
+    .category-card {
+        min-height: auto !important;
+        padding: 20px 15px !important;
+    }
+
+    .contact-wrapper,
+    .contact-container {
+        padding: 20px 15px !important;
+    }
+}/* =========================================
+   FORCE REMOVE UNWANTED VERTICAL SPACE
+   PASTE AT VERY END OF style.css
+========================================= */
+
+/* Har section ki forced height remove */
+section,
+.about-section,
+.why-choose-section,
+.categories-section,
+.contact-section,
+.branches-section,
+.gallery-section,
+.hero-section {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* Section ke andar unnecessary full height remove */
+section > div,
+.about-section > div,
+.why-choose-section > div,
+.categories-section > div,
+.contact-section > div {
+    min-height: 0 !important;
+}
+
+/* ================= ABOUT ================= */
+
+.about-section {
+    padding: 45px 0 !important;
+    margin: 0 !important;
+}
+
+.about-section .container,
+.about-container,
+.about-content {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+/* Screenshot me heading se image ke beech extra space */
+.about-content {
+    display: grid !important;
+    align-items: center !important;
+    gap: 30px !important;
+}
+
+/* ================= WHY CHOOSE ================= */
+
+.why-choose-section {
+    padding: 45px 0 !important;
+    margin: 0 !important;
+}
+
+.why-choose-section .container,
+.why-container {
+    min-height: 0 !important;
+    height: auto !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* ================= CATEGORY ================= */
+
+.categories-section {
+    padding: 45px 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+}
+
+.categories-section .container,
+.category-container {
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+/* ================= CONTACT ================= */
+
+.contact-section {
+    padding: 45px 0 !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+}
+
+.contact-section .container,
+.contact-container {
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+/* Remove random large top/bottom margins */
+.about-content,
+.why-grid,
+.category-grid,
+.contact-wrapper,
+.contact-form-wrapper {
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+/* Headings ke around gap kam */
+.section-header {
+    margin-bottom: 25px !important;
+}
+
+.about-title,
+.why-title,
+.category-title,
+.contact-title {
+    margin-top: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+/* Grid cards */
+.stats-grid,
+.why-grid,
+.category-grid {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 0 !important;
+}
+
+/* Fix large card container height */
+.about-stats,
+.stats-grid {
+    min-height: 0 !important;
+    height: auto !important;
+}
+
+/* Force all common wrappers to natural height */
+.container,
+.section-container,
+.content-wrapper,
+.section-wrapper {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .about-section,
+    .why-choose-section,
+    .categories-section,
+    .contact-section {
+        padding: 30px 15px !important;
+    }
+
+    .about-content,
+    .why-grid,
+    .category-grid {
+        gap: 18px !important;
+    }
+}/* =========================================
+   FINAL FIX - REMOVE BIG EMPTY SPACE
+   Paste at VERY END of style.css
+========================================= */
+
+/* Remove forced height from all homepage sections */
+section,
+.home-section,
+.about-section,
+.why-choose-section,
+.categories-section,
+.contact-section {
+    height: auto !important;
+    min-height: unset !important;
+}
+
+/* Remove forced space from section wrappers */
+section .container,
+section .section-container,
+section .content-wrapper,
+section .section-wrapper {
+    height: auto !important;
+    min-height: unset !important;
+}
+
+/* =========================================
+   FIX WHY CHOOSE US
+========================================= */
+
+.why-choose-section {
+    padding: 50px 0 !important;
+}
+
+.why-choose-section .why-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 24px !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 30px 0 0 !important;
+    padding: 0 !important;
+}
+
+/* =========================================
+   FIX CATEGORY SECTION GAP
+========================================= */
+
+.categories-section {
+    padding: 50px 0 !important;
+}
+
+.categories-section .category-grid {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 24px !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 30px 0 0 !important;
+    padding: 0 !important;
+}
+
+/* Remove gap caused by grid rows */
+.why-grid,
+.category-grid {
+    grid-auto-rows: auto !important;
+    align-content: start !important;
+}
+
+/* =========================================
+   FIX CARD HEIGHT
+========================================= */
+
+.why-card,
+.feature-card,
+.category-card {
+    height: auto !important;
+    min-height: 180px !important;
+    margin: 0 !important;
+}
+
+/* Prevent individual cards from stretching */
+.why-grid > *,
+.category-grid > * {
+    height: auto !important;
+    align-self: stretch !important;
+}
+
+/* =========================================
+   REMOVE EXTRA MARGIN BETWEEN SECTIONS
+========================================= */
+
+.why-choose-section + .categories-section {
+    margin-top: 0 !important;
+}
+
+.about-section + .why-choose-section {
+    margin-top: 0 !important;
+}
+
+.categories-section + .contact-section {
+    margin-top: 0 !important;
+}
+
+/* Remove huge heading gap */
+.section-header {
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 auto 30px !important;
+    padding: 0 !important;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .why-grid,
+    .category-grid {
+        margin-top: 25px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .why-choose-section,
+    .categories-section {
+        padding: 35px 15px !important;
+    }
+
+    .why-choose-section .why-grid,
+    .categories-section .category-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 15px !important;
+    }
+
+    .why-card,
+    .feature-card,
+    .category-card {
+        min-height: 140px !important;
+    }
+}/* =========================================
+   FINAL FIX - REMOVE UNWANTED EMPTY SPACE
+   ========================================= */
+
+/* Global */
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    line-height: 1.5 !important;
+}
+
+/* Bootstrap extra section spacing remove */
+.py-5 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+/* All main sections */
+.hero,
+.about,
+.why-us,
+.categories,
+.get-in-touch,
+.contact-strip,
+footer {
+    min-height: auto !important;
+    height: auto !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Hero */
+.hero {
+    padding: 35px 0 !important;
+}
+
+/* About section */
+.about {
+    padding: 40px 0 !important;
+}
+
+/* Why choose us */
+.why-us {
+    padding: 40px 0 !important;
+}
+
+/* Categories */
+.categories {
+    padding: 40px 0 !important;
+}
+
+/* Contact query section */
+.get-in-touch {
+    padding: 40px 0 !important;
+}
+
+/* Remove large empty gap from headings */
+.about .mb-5,
+.why-us .mb-5,
+.categories .mb-5,
+.get-in-touch .mb-5 {
+    margin-bottom: 30px !important;
+}
+
+/* Section headings */
+.section-title {
+    margin-top: 0 !important;
+    margin-bottom: 15px !important;
+    font-size: clamp(28px, 3vw, 42px) !important;
+    line-height: 1.15 !important;
+    font-weight: 700 !important;
+}
+
+.section-subtitle {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+/* About content */
+.about p {
+    margin-bottom: 12px !important;
+}
+
+/* Counter boxes */
+.counter-box {
+    min-height: 0 !important;
+    padding: 25px 15px !important;
+}
+
+.counter-box h3 {
+    margin-bottom: 8px !important;
+}
+
+/* Why choose cards */
+.feature-box {
+    min-height: 210px !important;
+    padding: 25px 15px !important;
+}
+
+.feature-box i {
+    margin-bottom: 15px !important;
+}
+
+/* Category cards */
+.category-card {
+    min-height: 180px !important;
+    padding: 25px 15px !important;
+}
+
+/* Rows should not create unwanted height */
+.row {
+    min-height: 0 !important;
+}
+
+/* Remove accidental fixed viewport heights */
+section,
+.hero,
+.about,
+.why-us,
+.categories,
+.get-in-touch {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+/* Desktop spacing */
+@media (min-width: 992px) {
+    .about,
+    .why-us,
+    .categories,
+    .get-in-touch {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+}
+
+/* Mobile spacing */
+@media (max-width: 991px) {
+    .about,
+    .why-us,
+    .categories,
+    .get-in-touch {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .feature-box,
+    .category-card {
+        min-height: 150px !important;
+    }
+}/* =========================================================
+   COSMETICS WEBSITE ANIMATION EFFECTS
+   PASTE AT END OF style.css
+========================================================= */
+
+/* Smooth page animation */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ---------------------------------
+   FLOATING COSMETIC PARTICLES
+---------------------------------- */
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.18;
+    filter: blur(1px);
+    animation: cosmeticFloat 12s ease-in-out infinite;
+}
+
+body::before {
+    left: 8%;
+    top: 30%;
+    background: #c72c5b;
+}
+
+body::after {
+    right: 10%;
+    bottom: 20%;
+    background: #d4a017;
+    animation-delay: -6s;
+}
+
+@keyframes cosmeticFloat {
+    0%, 100% {
+        transform: translateY(0) translateX(0) scale(1);
+    }
+
+    25% {
+        transform: translateY(-45px) translateX(20px) scale(1.15);
+    }
+
+    50% {
+        transform: translateY(-15px) translateX(-20px) scale(0.9);
+    }
+
+    75% {
+        transform: translateY(-60px) translateX(10px) scale(1.1);
+    }
+}
+
+
+/* ---------------------------------
+   HERO IMAGE SOFT ZOOM
+---------------------------------- */
+
+.hero-full-slider img,
+.hero-banner img,
+.hero-image img {
+    animation: cosmeticZoom 12s ease-in-out infinite alternate;
+}
+
+@keyframes cosmeticZoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.035);
+    }
+}
+
+
+/* ---------------------------------
+   SECTION HEADINGS
+---------------------------------- */
+
+section h1,
+section h2,
+.section-title {
+    animation: titleGlow 4s ease-in-out infinite;
+}
+
+@keyframes titleGlow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+        text-shadow: 0 6px 18px rgba(128, 31, 60, 0.12);
+    }
+}
+
+
+/* ---------------------------------
+   CARDS FLOAT EFFECT
+---------------------------------- */
+
+.stat-card,
+.feature-card,
+.category-card,
+.branch-card,
+.contact-card {
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        border-color 0.35s ease;
+}
+
+.stat-card:hover,
+.feature-card:hover,
+.category-card:hover,
+.branch-card:hover,
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 35px rgba(116, 26, 54, 0.16);
+}
+
+
+/* ---------------------------------
+   ICON ANIMATION
+---------------------------------- */
+
+.feature-card i,
+.category-card i,
+.stat-card i {
+    transition: transform 0.4s ease;
+}
+
+.feature-card:hover i,
+.category-card:hover i,
+.stat-card:hover i {
+    transform: scale(1.18) rotate(-6deg);
+}
+
+
+/* ---------------------------------
+   BUTTON SHINE EFFECT
+---------------------------------- */
+
+button,
+.btn,
+a.btn,
+.contact-btn {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+a.btn:hover,
+.contact-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(128, 31, 60, 0.25);
+}
+
+button::before,
+.btn::before,
+.contact-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.45),
+        transparent
+    );
+    transform: skewX(-20deg);
+    transition: 0.7s;
+}
+
+button:hover::before,
+.btn:hover::before,
+.contact-btn:hover::before {
+    left: 150%;
+}
+
+
+/* ---------------------------------
+   IMAGE HOVER EFFECT
+---------------------------------- */
+
+img {
+    transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.category-card:hover img,
+.branch-card:hover img {
+    transform: scale(1.06);
+    filter: brightness(1.04) saturate(1.08);
+}
+
+
+/* ---------------------------------
+   SOFT PULSE FOR IMPORTANT ELEMENTS
+---------------------------------- */
+
+.store-open,
+.badge,
+.offer-badge {
+    animation: softPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes softPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+
+/* ---------------------------------
+   WHATSAPP BUTTON ANIMATION
+---------------------------------- */
+
+.whatsapp-btn,
+.whatsapp-button {
+    animation: whatsappPulse 2s infinite;
+}
+
+@keyframes whatsappPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 12px rgba(37, 211, 102, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+
+/* ---------------------------------
+   SCROLL REVEAL
+---------------------------------- */
+
+.reveal-animation {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal-animation.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .hero-full-slider img,
+    .hero-banner img,
+    .hero-image img {
+        animation: none;
+    }
+
+    body::before,
+    body::after {
+        display: none;
+    }
+
+    .stat-card:hover,
+    .feature-card:hover,
+    .category-card:hover,
+    .branch-card:hover {
+        transform: translateY(-4px);
+    }
+}/* =========================================
+   LOGO + BRAND NAME PREMIUM ANIMATION
+========================================= */
+
+/* Logo Animation */
+.logo img,
+.brand-logo img,
+.navbar-logo img,
+header .logo img {
+    animation: logoPremiumFloat 3s ease-in-out infinite;
+    filter: drop-shadow(0 5px 10px rgba(128, 28, 58, 0.25));
+}
+
+@keyframes logoPremiumFloat {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: translateY(-6px) rotate(3deg) scale(1.08);
+    }
+}
+
+
+/* Shree Prem Cosmetics Brand Text */
+.logo-text,
+.brand-name,
+.site-title,
+.logo-content h1,
+header h1 {
+    font-weight: 900 !important;
+    letter-spacing: 0.5px !important;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(
+        90deg,
+        #6f1d3a,
+        #a91f4d,
+        #d4a017,
+        #a91f4d,
+        #6f1d3a
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: brandTextShine 4s linear infinite,
+               brandTextFloat 3s ease-in-out infinite;
+}
+
+@keyframes brandTextShine {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: 300% center;
+    }
+}
+
+@keyframes brandTextFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+
+/* Best Rates Forever */
+.logo-content p,
+.brand-tagline,
+.site-tagline {
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    animation: taglineGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes taglineGlow {
+    0%, 100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.03);
+        text-shadow: 0 0 10px rgba(212, 160, 23, 0.3);
+    }
+}/* =========================================
+   LOGO + BRAND NAME PREMIUM ANIMATION
+========================================= */
+
+/* Logo Animation */
+.logo img,
+.brand-logo img,
+.navbar-logo img,
+header .logo img {
+    animation: logoPremiumFloat 3s ease-in-out infinite;
+    filter: drop-shadow(0 5px 10px rgba(128, 28, 58, 0.25));
+}
+
+@keyframes logoPremiumFloat {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: translateY(-6px) rotate(3deg) scale(1.08);
+    }
+}
+
+
+/* Shree Prem Cosmetics Brand Text */
+.logo-text,
+.brand-name,
+.site-title,
+.logo-content h1,
+header h1 {
+    font-weight: 900 !important;
+    letter-spacing: 0.5px !important;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(
+        90deg,
+        #6f1d3a,
+        #a91f4d,
+        #d4a017,
+        #a91f4d,
+        #6f1d3a
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: brandTextShine 4s linear infinite,
+               brandTextFloat 3s ease-in-out infinite;
+}
+
+@keyframes brandTextShine {
+    0% {
+        background-position: 0% center;
+    }
+
+    100% {
+        background-position: 300% center;
+    }
+}
+
+@keyframes brandTextFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+
+/* Best Rates Forever */
+.logo-content p,
+.brand-tagline,
+.site-tagline {
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    animation: taglineGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes taglineGlow {
+    0%, 100% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.03);
+        text-shadow: 0 0 10px rgba(212, 160, 23, 0.3);
+    }
+}/* =========================================
+   REMOVE TOP MOVING MARQUEE / COLOR STRIP
+========================================= */
+
+/* Marquee animation completely stop */
+.marquee,
+.marquee-content,
+.ticker,
+.notice-bar,
+.top-marquee {
+    animation: none !important;
+}
+
+/* Hide the old moving strip */
+.marquee {
+    display: none !important;
+}
+
+
+/* =========================================
+   PREMIUM COSMETICS TOP EFFECT
+========================================= */
+
+/* Soft animated gradient strip */
+.promo-bar,
+.store-strip,
+.top-strip {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(
+        90deg,
+        #7b1e3b,
+        #9d294d,
+        #c9982d,
+        #9d294d,
+        #7b1e3b
+    ) !important;
+    background-size: 250% 100% !important;
+    animation: premiumShine 8s ease-in-out infinite !important;
+}
+
+/* Soft light sweep */
+.promo-bar::before,
+.store-strip::before,
+.top-strip::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -40%;
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.18),
+        transparent
+    );
+    transform: skewX(-25deg);
+    animation: lightSweep 6s infinite;
+    pointer-events: none;
+}
+
+@keyframes premiumShine {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes lightSweep {
+    0% {
+        left: -50%;
+    }
+
+    100% {
+        left: 120%;
+    }
+}/* =========================================
+   STYLISH BRANCH INFO BAR
+========================================= */
+
+.branch-info-bar {
+    width: 100%;
+    background: linear-gradient(90deg, #7d1f3d, #a61f4d, #7d1f3d);
+    padding: 10px 0;
+    overflow: hidden;
+    border-bottom: 3px solid #d6a52b;
+}
+
+.branch-info-container {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.branch-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 14px;
+    min-width: 190px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 215, 120, 0.25);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.branch-item i {
+    font-size: 22px;
+    color: #f6c547;
+}
+
+.branch-item div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+}
+
+.branch-item strong {
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.branch-item span {
+    font-size: 11px;
+    color: #f5dca0;
+    white-space: nowrap;
+}
+
+.branch-item:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.18);
+    border-color: #f6c547;
+}
+
+.highlight-branch {
+    background: linear-gradient(135deg, #c8941d, #e5b638);
+    border-color: #f8d46c;
+}
+
+.highlight-branch i {
+    color: #7d1f3d;
+}
+
+.highlight-branch strong {
+    color: #7d1f3d;
+}
+
+.highlight-branch span {
+    color: #5d1830;
+    font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .branch-info-container {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding: 0 12px;
+    }
+
+    .branch-item {
+        min-width: 230px;
+    }
+}/* ================================
+   BRANCH CARD GREEN BLINK BORDER
+================================ */
+
+.branch-card {
+    position: relative;
+    border: 2px solid #39ff14 !important;
+    border-radius: 14px;
+    animation: branchGreenBlink 1.5s infinite ease-in-out;
+}
+
+@keyframes branchGreenBlink {
+    0%, 100% {
+        border-color: #39ff14;
+        box-shadow:
+            0 0 5px rgba(57, 255, 20, 0.4),
+            0 0 10px rgba(57, 255, 20, 0.3);
+    }
+
+    50% {
+        border-color: #0b7a22;
+        box-shadow:
+            0 0 15px rgba(57, 255, 20, 0.9),
+            0 0 30px rgba(57, 255, 20, 0.6);
+    }
+}/* ==========================================
+   BRANCH CARD GREEN BLINK EFFECT
+========================================== */
+
+.branch-card{
+    border: 2px solid #25d366 !important;
+    border-top: 2px solid #25d366 !important;
+
+    animation: branchGreenBlink 1.8s ease-in-out infinite !important;
+
+    box-shadow:
+        0 0 8px rgba(37, 211, 102, 0.45),
+        0 0 18px rgba(37, 211, 102, 0.25) !important;
+}
+
+@keyframes branchGreenBlink{
+    0%,
+    100%{
+        border-color: #25d366;
+        box-shadow:
+            0 0 8px rgba(37, 211, 102, 0.35),
+            0 0 18px rgba(37, 211, 102, 0.20);
+    }
+
+    50%{
+        border-color: #7dff9d;
+        box-shadow:
+            0 0 15px rgba(37, 211, 102, 0.8),
+            0 0 35px rgba(37, 211, 102, 0.55),
+            0 0 55px rgba(37, 211, 102, 0.25);
+    }
+}
+
+.branch-card:hover{
+    transform: translateY(-10px) scale(1.02) !important;
+    border-color: #00ff55 !important;
+    border-top-color: #00ff55 !important;
+}/* ==========================================
+   TOP BRANCH CARDS - GREEN BLINK BORDER
+========================================== */
+
+.branch-info-bar .branch-item{
+    position: relative !important;
+    border: 2px solid #00e676 !important;
+
+    box-shadow:
+        0 0 6px rgba(0, 230, 118, 0.45),
+        0 0 14px rgba(0, 230, 118, 0.25) !important;
+
+    animation: greenBorderBlink 1.5s ease-in-out infinite !important;
+}
+
+/* Blink Animation */
+@keyframes greenBorderBlink{
+    0%,
+    100%{
+        border-color: #00e676;
+        box-shadow:
+            0 0 5px rgba(0, 230, 118, 0.35),
+            0 0 12px rgba(0, 230, 118, 0.20);
+    }
+
+    50%{
+        border-color: #7CFF00;
+        box-shadow:
+            0 0 10px rgba(0, 230, 118, 0.8),
+            0 0 22px rgba(0, 230, 118, 0.6),
+            0 0 35px rgba(0, 230, 118, 0.35);
+    }
+}
+
+/* Hover Effect */
+.branch-info-bar .branch-item:hover{
+    transform: translateY(-4px) scale(1.03);
+    border-color: #7CFF00 !important;
+
+    box-shadow:
+        0 0 15px rgba(124, 255, 0, 0.9),
+        0 0 30px rgba(124, 255, 0, 0.5) !important;
+/* =========================================
+   BRANCH CARDS - GREEN BLINK EFFECT
+========================================= */
+
+.branch-info-bar .branch-item {
+    position: relative !important;
+    border: 2px solid #00ff88 !important;
+    border-radius: 10px !important;
+
+    animation-name: branchGreenBlink !important;
+    animation-duration: 0.8s !important;
+    animation-timing-function: ease-in-out !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: alternate !important;
+}
+
+@keyframes branchGreenBlink {
+    0% {
+        border-color: #006b3c;
+        box-shadow:
+            0 0 2px rgba(0, 255, 136, 0.2) !important;
+    }
+
+    100% {
+        border-color: #00ff88;
+        box-shadow:
+            0 0 8px #00ff88,
+            0 0 18px rgba(0, 255, 136, 0.9),
+            0 0 30px rgba(0, 255, 136, 0.5) !important;
+    }
+}/* ==========================================
+   PREMIUM BRANCH CARD ANIMATION
+   SHINE + FLOAT + GLOW
+========================================== */
+
+.branch-info-bar {
+    position: relative;
+    overflow: hidden;
+}
+
+.branch-item {
+    position: relative !important;
+    overflow: hidden !important;
+
+    border: 1px solid rgba(246, 197, 71, 0.55) !important;
+
+    background: linear-gradient(
+        135deg,
+        rgba(255,255,255,0.12),
+        rgba(255,255,255,0.05)
+    ) !important;
+
+    animation: branchFloat 3s ease-in-out infinite !important;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.12),
+        inset 0 1px 0 rgba(255,255,255,0.15) !important;
+}
+
+/* Moving shine */
+.branch-item::before {
+    content: "" !important;
+
+    position: absolute !important;
+
+    top: -50% !important;
+    left: -60% !important;
+
+    width: 35% !important;
+    height: 200% !important;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,0.55),
+        transparent
+    ) !important;
+
+    transform: rotate(25deg) !important;
+
+    animation: branchShine 4s ease-in-out infinite !important;
+
+    pointer-events: none !important;
+}
+
+/* Bottom glow */
+.branch-item::after {
+    content: "" !important;
+
+    position: absolute !important;
+
+    left: 15% !important;
+    bottom: 0 !important;
+
+    width: 70% !important;
+    height: 2px !important;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #f6c547,
+        #ffffff,
+        #f6c547,
+        transparent
+    ) !important;
+
+    box-shadow:
+        0 0 8px #f6c547,
+        0 0 18px rgba(246,197,71,0.8) !important;
+
+    animation: branchGlow 2s ease-in-out infinite !important;
+}
+
+/* Different animation timing for every card */
+.branch-item:nth-child(1) {
+    animation-delay: 0s !important;
+}
+
+.branch-item:nth-child(2) {
+    animation-delay: 0.2s !important;
+}
+
+.branch-item:nth-child(3) {
+    animation-delay: 0.4s !important;
+}
+
+.branch-item:nth-child(4) {
+    animation-delay: 0.6s !important;
+}
+
+.branch-item:nth-child(5) {
+    animation-delay: 0.8s !important;
+}
+
+/* Floating effect */
+@keyframes branchFloat {
+    0%, 100% {
+        transform: translateY(0px);
+        box-shadow:
+            0 5px 15px rgba(0,0,0,0.12),
+            0 0 0 rgba(246,197,71,0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+        box-shadow:
+            0 12px 28px rgba(0,0,0,0.18),
+            0 0 18px rgba(246,197,71,0.18);
+    }
+}
+
+/* Shine passes through card */
+@keyframes branchShine {
+    0% {
+        left: -70%;
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 140%;
+        opacity: 0;
+    }
+}
+
+/* Bottom light pulse */
+@keyframes branchGlow {
+    0%, 100% {
+        opacity: 0.35;
+        transform: scaleX(0.7);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+
+/* Hover effect */
+.branch-item:hover {
+    transform: translateY(-7px) scale(1.03) !important;
+
+    border-color: #ffffff !important;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.22),
+        0 0 25px rgba(246,197,71,0.45) !important;
+}/* ===== BRANCH CARD STYLISH GLOW EFFECT ===== */
+
+.branch-glow {
+    position: relative !important;
+    overflow: hidden !important;
+    border: 2px solid #39ff14 !important;
+    animation: branchPulse 1.8s ease-in-out infinite !important;
+}
+
+.branch-glow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(57, 255, 20, 0.35),
+        transparent
+    );
+    transform: skewX(-25deg);
+    animation: branchShine 2.5s linear infinite !important;
+}
+
+@keyframes branchPulse {
+    0%, 100% {
+        border-color: #39ff14;
+        box-shadow:
+            0 0 5px rgba(57, 255, 20, 0.4),
+            0 0 12px rgba(57, 255, 20, 0.3);
+        transform: translateY(0);
+    }
+
+    50% {
+        border-color: #ffd54a;
+        box-shadow:
+            0 0 12px rgba(57, 255, 20, 0.9),
+            0 0 25px rgba(57, 255, 20, 0.5);
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes branchShine {
+    0% {
+        left: -120%;
+    }
+
+    100% {
+        left: 150%;
+    }
+}/* =========================================
+   PREMIUM BRANCH CARD ANIMATION
+========================================= */
+
+.branch-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 215, 0, 0.35);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: branchFloat 3s ease-in-out infinite;
+}
+
+/* Moving golden shine */
+.branch-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -120%;
+    width: 45%;
+    height: 200%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 215, 0, 0.28),
+        rgba(255, 255, 255, 0.08),
+        transparent
+    );
+    transform: rotate(20deg);
+    animation: branchShineMove 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+/* Soft border glow */
+.branch-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: inset 0 0 15px rgba(255, 215, 0, 0);
+    animation: branchGlow 3s ease-in-out infinite;
+    pointer-events: none;
+}
+
+/* Card floating */
+@keyframes branchFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+/* Shine movement */
+@keyframes branchShineMove {
+    0% {
+        left: -120%;
+    }
+
+    60%, 100% {
+        left: 180%;
+    }
+}
+
+/* Soft premium glow */
+@keyframes branchGlow {
+    0%, 100% {
+        box-shadow:
+            inset 0 0 8px rgba(255, 215, 0, 0.05),
+            0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    50% {
+        box-shadow:
+            inset 0 0 18px rgba(255, 215, 0, 0.12),
+            0 8px 25px rgba(255, 215, 0, 0.18);
+    }
+}
+
+/* Different timing for each card */
+.branch-card:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.branch-card:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.branch-card:nth-child(4) {
+    animation-delay: 0.9s;
+}
+
+.branch-card:nth-child(5) {
+    animation-delay: 1.2s;
+}
+
+/* Hover effect */
+.branch-card:hover {
+    transform: translateY(-7px) scale(1.03) !important;
+    border-color: #ffd54a !important;
+    box-shadow:
+        0 12px 30px rgba(255, 215, 0, 0.25) !important;
+}/* =========================================
+   TOP BRANCH CARDS - PREMIUM ANIMATION
+========================================= */
+
+.branch-item {
+    position: relative !important;
+    overflow: hidden !important;
+    border: 1px solid rgba(246, 197, 71, 0.45) !important;
+    animation: branchPremiumFloat 3s ease-in-out infinite !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+/* Moving golden light */
+.branch-item::before {
+    content: "" !important;
+    position: absolute !important;
+    top: -50% !important;
+    left: -80% !important;
+    width: 35% !important;
+    height: 200% !important;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 215, 120, 0.05),
+        rgba(255, 255, 255, 0.45),
+        rgba(255, 215, 120, 0.08),
+        transparent
+    ) !important;
+    transform: rotate(20deg) !important;
+    animation: branchLightMove 4s linear infinite !important;
+    pointer-events: none !important;
+}
+
+/* Soft glowing border */
+.branch-item::after {
+    content: "" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    border-radius: inherit !important;
+    pointer-events: none !important;
+    animation: branchBorderGlow 2.5s ease-in-out infinite !important;
+}
+
+/* Smooth floating */
+@keyframes branchPremiumFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+/* Light passing through card */
+@keyframes branchLightMove {
+    0% {
+        left: -80%;
+    }
+
+    100% {
+        left: 150%;
+    }
+}
+
+/* Premium border glow */
+@keyframes branchBorderGlow {
+    0%, 100% {
+        box-shadow:
+            inset 0 0 0 1px rgba(246, 197, 71, 0.15),
+            0 0 8px rgba(246, 197, 71, 0.05);
+    }
+
+    50% {
+        box-shadow:
+            inset 0 0 0 1px rgba(255, 215, 120, 0.7),
+            0 0 18px rgba(246, 197, 71, 0.3);
+    }
+}
+
+/* Each card moves at different timing */
+.branch-item:nth-child(2) {
+    animation-delay: 0.4s !important;
+}
+
+.branch-item:nth-child(3) {
+    animation-delay: 0.8s !important;
+}
+
+.branch-item:nth-child(4) {
+    animation-delay: 1.2s !important;
+}
+
+.branch-item:nth-child(5) {
+    animation-delay: 1.6s !important;
+}
+
+/* Hover */
+.branch-item:hover {
+    transform: translateY(-6px) scale(1.03) !important;
+    box-shadow: 0 10px 30px rgba(246, 197, 71, 0.25) !important;
+}/* ===== TOP BRANCH CARDS FINAL FIX ===== */
+
+.branch-info-container{
+    height: auto !important;
+    min-height: auto !important;
+    padding: 10px 0 !important;
+    overflow: hidden !important;
+}
+
+.branch-item{
+    position: relative !important;
+    overflow: hidden !important;
+
+    border: 2px solid #20e3a2 !important;
+    border-radius: 14px !important;
+
+    animation: branchFloat 2.8s ease-in-out infinite !important;
+
+    box-shadow:
+        0 0 8px rgba(32, 227, 162, 0.25) !important;
+
+    transition: transform .3s ease,
+                box-shadow .3s ease,
+                border-color .3s ease !important;
+}
+
+/* Moving shine effect */
+.branch-item::before{
+    content: "" !important;
+    position: absolute !important;
+
+    top: -30% !important;
+    left: -60% !important;
+
+    width: 35% !important;
+    height: 160% !important;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.45),
+        transparent
+    ) !important;
+
+    transform: rotate(20deg) !important;
+
+    animation: branchShine 3.5s linear infinite !important;
+
+    pointer-events: none !important;
+    z-index: 1 !important;
+}
+
+.branch-item > *{
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* Different card movement */
+.branch-item:nth-child(2){
+    animation-delay: .3s !important;
+}
+
+.branch-item:nth-child(3){
+    animation-delay: .6s !important;
+}
+
+.branch-item:nth-child(4){
+    animation-delay: .9s !important;
+}
+
+.branch-item:nth-child(5){
+    animation-delay: 1.2s !important;
+}
+
+/* Smooth floating */
+@keyframes branchFloat{
+    0%,100%{
+        transform: translateY(0);
+        box-shadow: 0 0 8px rgba(32,227,162,.25);
+    }
+
+    50%{
+        transform: translateY(-5px);
+        box-shadow:
+            0 8px 20px rgba(32,227,162,.35),
+            0 0 14px rgba(32,227,162,.25);
+    }
+}
+
+/* Shine moving */
+@keyframes branchShine{
+    0%{
+        left: -60%;
+    }
+
+    100%{
+        left: 140%;
+    }
+}
+
+/* Hover effect */
+.branch-item:hover{
+    animation-play-state: paused !important;
+
+    transform: translateY(-6px) scale(1.03) !important;
+
+    border-color: #f4c542 !important;
+
+    box-shadow:
+        0 12px 28px rgba(244,197,66,.35),
+        0 0 15px rgba(244,197,66,.45) !important;
+}/* WELCOME SECTION FIX */
+.welcome-section {
+    min-height: auto !important;
+    padding-top: 35px !important;
+    padding-bottom: 45px !important;
+    margin-top: 0 !important;
+}/* WELCOME SECTION FINAL SIZE FIX */
+.welcome-section {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 25px 0 35px !important;
+}
+
+.welcome-section .container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.welcome-section h1 {
+    margin-top: 5px !important;
+    margin-bottom: 8px !important;
+}
+
+.welcome-section p {
+    margin-bottom: 15px !important;
+}/* KEEP SHREE PREM COSMETICS IN ONE LINE */
+/* HERO TITLE - SINGLE LINE FIX */
+.hero .container {
+    max-width: 1200px !important;
+}
+
+.hero .col-lg-6:first-child {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+.hero h1 {
+    white-space: nowrap !important;
+    display: block !important;
+    width: 100% !important;
+    font-size: clamp(42px, 5vw, 68px) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -2px !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+}/* SHREE PREM COSMETICS - SINGLE LINE FIX */
+.welcome-section h1 {
+    display: block !important;
+    width: 100% !important;
+    white-space: nowrap !important;
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+
+    font-size: clamp(36px, 4vw, 64px) !important;
+    line-height: 1.1 !important;
+    letter-spacing: -2px !important;
+}/* =========================================
+   WEBSITE LOCK GATE
+========================================= */
+
+body {
+    overflow: hidden;
+}
+
+.website-lock {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #7d1f3b;
+}
+
+/* DOORS */
+.lock-door {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, #5e1029, #a51f4b, #65122f);
+    transition: transform 1.2s ease-in-out;
+    z-index: 1;
+}
+
+.left-door {
+    left: 0;
+    border-right: 2px solid #d4af37;
+}
+
+.right-door {
+    right: 0;
+    border-left: 2px solid #d4af37;
+}
+
+/* CENTER LOCK CONTENT */
+.lock-content {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    animation: lockContentGlow 2s infinite alternate;
+}
+
+.lock-icon {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 20px;
+    border: 3px solid #d4af37;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #ffd85c;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+    animation: lockPulse 1.5s infinite ease-in-out;
+}
+
+.lock-content h1 {
+    font-size: clamp(30px, 4vw, 55px);
+    margin: 0 0 8px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.lock-content p {
+    color: #f6d878;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.enter-btn {
+    border: none;
+    border-radius: 50px;
+    padding: 15px 32px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #75162f;
+    background: linear-gradient(135deg, #ffd85c, #d4af37);
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+    transition: 0.3s ease;
+}
+
+.enter-btn:hover {
+    transform: scale(1.08);
+}
+
+.lock-content span {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #f4d7df;
+}
+
+/* UNLOCK ANIMATION */
+.website-lock.unlocking .lock-icon {
+    animation: unlockRotate 0.8s forwards;
+}
+
+.website-lock.unlocking .left-door {
+    transform: translateX(-100%);
+}
+
+.website-lock.unlocking .right-door {
+    transform: translateX(100%);
+}
+
+.website-lock.unlocking .lock-content {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: 0.4s ease;
+}
+
+/* ANIMATIONS */
+@keyframes lockPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.5);
+    }
+
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 0 45px rgba(255, 216, 92, 1);
+    }
+}
+
+@keyframes lockContentGlow {
+    from {
+        filter: drop-shadow(0 0 5px rgba(255, 216, 92, 0.2));
+    }
+
+    to {
+        filter: drop-shadow(0 0 18px rgba(255, 216, 92, 0.6));
+    }
+}
+
+@keyframes unlockRotate {
+    to {
+        transform: rotate(20deg) scale(1.15);
+        opacity: 0;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 576px) {
+
+    .lock-content h1 {
+        white-space: normal;
+        font-size: 34px;
+    }
+
+    .lock-content p {
+        font-size: 15px;
+    }
+
+    .lock-icon {
+        width: 90px;
+        height: 90px;
+        font-size: 40px;
+    }
+}/* =========================================
+   WEBSITE LOCK GATE
+========================================= */
+
+.website-lock {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999999;
+    overflow: hidden;
+    background: #7b1838;
+}
+
+/* LEFT DOOR */
+.lock-door {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, #5d0f28, #8f1f45);
+    z-index: 2;
+    transition: transform 1.8s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.left-door {
+    left: 0;
+    border-right: 2px solid #d4af37;
+}
+
+.right-door {
+    right: 0;
+    border-left: 2px solid #d4af37;
+}
+
+/* CENTER CONTENT */
+.lock-content {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: min(90%, 600px);
+    color: #fff;
+}
+
+.lock-icon {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 25px;
+    border: 3px solid #d4af37;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #ffd85c;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.6);
+    animation: lockPulse 2s infinite;
+}
+
+.lock-content h1 {
+    font-size: clamp(32px, 5vw, 64px);
+    margin-bottom: 10px;
+    color: white;
+}
+
+.lock-content p {
+    font-size: 18px;
+    color: #f5d68a;
+}
+
+.enter-btn {
+    margin-top: 30px;
+    padding: 15px 35px;
+    border: 2px solid #d4af37;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #a5214b, #6d102e);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.enter-btn:hover {
+    transform: scale(1.08);
+    background: #d4af37;
+    color: #5d0f28;
+}
+
+.lock-content span {
+    display: block;
+    margin-top: 18px;
+    opacity: 0.75;
+    font-size: 14px;
+}
+
+/* OPENING ANIMATION */
+.website-lock.unlocking .left-door {
+    transform: translateX(-100%);
+}
+
+.website-lock.unlocking .right-door {
+    transform: translateX(100%);
+}
+
+.website-lock.unlocking .lock-content {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.7);
+    transition: all 0.5s ease;
+}
+
+@keyframes lockPulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+    }
+
+    50% {
+        transform: scale(1.08);
+        box-shadow: 0 0 45px rgba(212, 175, 55, 0.9);
+    }
+
 }  
